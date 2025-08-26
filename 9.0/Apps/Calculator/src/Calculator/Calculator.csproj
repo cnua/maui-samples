@@ -42,6 +42,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
+		<MauiIcon Include="Resources\appiconcnuauk.svg">
+		  <Color>#512BD4</Color>
+		  <ForegroundFile>Resources\appiconfg.svg</ForegroundFile>
+		</MauiIcon>
 		<MauiIcon Include="Resources\appicon.svg" ForegroundFile="Resources\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
@@ -59,6 +63,8 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+		<PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
+		<PackageReference Include="Svg" Version="3.4.7" />
 	</ItemGroup>
 
 </Project>
