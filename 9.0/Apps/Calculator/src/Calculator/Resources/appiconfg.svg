@@ -11,7 +11,7 @@
     </linearGradient>
   </defs>
 
-  <text x="120" y="55" fill="url(#blueGradient)" font-size="28" font-weight="bold" font-family="Tahoma"
+  <text x="120" y="55" fill="url(#blueGradient)" font-size="38" font-weight="bold" font-family="Podium"
         text-anchor="end" dominant-baseline="middle">
     CNUA
   </text>
@@ -22,7 +22,7 @@
   <line x1="145" y1="30" x2="145" y2="70" stroke="red" stroke-width="6"/>
 
   <!-- UK text -->
-  <text x="180" y="55" fill="url(#blueGradient)" font-size="28" font-weight="bold"
+  <text x="180" y="55" fill="url(#blueGradient)" font-size="38" font-weight="bold"
         text-anchor="start" dominant-baseline="middle">
     UK
   </text>

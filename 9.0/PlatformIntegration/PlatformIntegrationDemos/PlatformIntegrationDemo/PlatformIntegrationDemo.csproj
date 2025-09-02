@@ -67,4 +67,10 @@
 	  <BundleResource Include="Resources\Raw\FileSystemTemplate.txt" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="MainPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
